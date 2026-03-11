@@ -103,7 +103,7 @@ class ProgressPlot(threading.Thread):
         self.job = job
         with plt.ioff():
             self.fig = plt.figure()
-        self.plot_init(self.fig)
+        self.plot_init()
         self.show()
         self.start()
 
